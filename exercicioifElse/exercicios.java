@@ -41,20 +41,24 @@ public class exercicios {
                     double preço2 = 0.25;
                     double preçototal1 = maças*preço1;
                     double preçototal2 = maças*preço2;
-                    if( maças <= 12 ) { System.out.println ("Total é" + preçototal1);}
+                    if( maças <= 11 ) { System.out.println ("Total é" + preçototal1);}
                         else
                        { System.out.println("Total é" + preçototal2);}
-                }
-                public void exercicio5(){System.out.println("Quantas maçãs");
-
-                
-
-                    
-                       
 
                 }
-        
-                
             
-            
+            public void exercicio5(){System.out.println("Qual é o numero 1?");
+            double n1 = sc.nextDouble();
+            {System.out.println("Qual é o numero 2?");
+            double n2 = sc.nextDouble();
+            System.out.println("Qual é o numero 3?");
+            double n3 = sc.nextDouble();
+           if (n1 <= 0) {System.out.println("O")}
+           else if ( n2 <= 0);
+           else (  n3 <= 0)
+          
+
+        }
+    }
+}
    
