@@ -39,26 +39,51 @@ public class exercicios {
                     double maças = sc.nextDouble();
                     double preço1 = 0.30;
                     double preço2 = 0.25;
-                    double preçototal1 = maças*preço1;
-                    double preçototal2 = maças*preço2;
-                    if( maças <= 11 ) { System.out.println ("Total é" + preçototal1);}
+                    double preçoTotal1 = maças*preço1;
+                    double preçoTotal2 = maças*preço2;
+                    if( maças <= 11 ) { System.out.println ("Total é R$ " + preçoTotal1);}
                         else
-                       { System.out.println("Total é" + preçototal2);}
-
+                       { System.out.println("Total é R$ " + preçoTotal2);}
                 }
-            
-            public void exercicio5(){System.out.println("Qual é o numero 1?");
-            double n1 = sc.nextDouble();
-            {System.out.println("Qual é o numero 2?");
-            double n2 = sc.nextDouble();
-            System.out.println("Qual é o numero 3?");
-            double n3 = sc.nextDouble();
-           if (n1 <= 0) {System.out.println("O")}
-           else if ( n2 <= 0);
-           else (  n3 <= 0)
-          
+            public void exercicio5(){
+                System.out.println("Qual é o numero 1");
+        double n1 = sc.nextDouble();
+        System.out.println("Qual é o numero 2");
+        double n2 = sc.nextDouble();
+        System.out.println("Qual é o numero 3");
+        double n3 = sc.nextDouble();
+        if (n1<n2 && n2<n3){
+            System.out.println("A ordem crescente é" + n1 +n2 +n3);
+        } else if(n1<n3 && n3<n2){
+            System.out.println("A ordem crescente é" + n1 +n3 +n2);
+            else if(n2<n3 && n3<n2){
+                System.out.println("A ordem crescente é" + n1 +n3 +n2);
+                else if(n1<n3 && n3<n2){
+                    System.out.println("A ordem crescente é" + n1 +n3 +n2);
+                }
+                else if(n1<n3 && n3<n2){
+                    System.out.println("A ordem crescente é" + n1 +n3 +n2);
+                }
+                else if(n1<n3 && n3<n2){
+                    System.out.println("A ordem crescente é" + n1 +n3 +n2);
+                }
+            }
+        }
 
         }
     }
-}
-   
+        public void exercicio6 (){System.out.println("Digite sexo Feminino (F) ou Masculino (M)?");
+        if sc.nextDouble == F { System.out.println("Qual é o seu peso")}
+         double pesoF = sc.nextDouble};
+         { System.out.println("Qual é o sua altura")
+         double alturaF = sc.nextDouble};
+         double pesoF * alturaF = pesoIdeal;
+         double pesoIdeal - 44.7;
+         else { System.out.println("Qual é o seu peso")
+         double pesoM = sc.nextDouble};
+         { System.out.println("Qual é o sua altura")
+         double alturaM = sc.nextDouble};
+         double pesoM * alturaM = pesoIdeal;
+         double pesoIdeal - 58;
+            }
+
