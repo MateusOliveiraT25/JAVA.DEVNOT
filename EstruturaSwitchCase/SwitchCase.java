@@ -21,9 +21,9 @@ public class SwitchCase {
         }
         public void nmes (){
             System.out.println("Digite um mês");
-            int nmes = sc.nextInt();
-            String nomeMes =("");
-            switch (nmes) {
+            int nomeMes = sc.nextInt();
+            String nomeMes=("");
+            switch (nomeMes) {
             case 1:nomeMes = "Janeiro";
             break;
             case 2:nomeMes = "Fevereiro";
@@ -48,7 +48,7 @@ public class SwitchCase {
             break;
             case 12:nomeMes = "Dezembro";
             break;
-            default:System.out.println(nmes+"Invalido");
+            default:System.out.println(nomeMes+"Invalido");
             break;
         }
 

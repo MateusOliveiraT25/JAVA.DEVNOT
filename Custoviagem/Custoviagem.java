@@ -1,17 +1,18 @@
+
 /**
- * custoviagem
+ * CustoViagem
  */
-public class custoviagem {
+public class CustoViagem {
 
     public static void main(String[] args) {
-        int distanciaPercorrida = 148; // em km
+        int distanciaPercorrida = 148;// em km
         double consumoTransporte = 10; // em km/l
         double precoCombustivel = 4.99; // em R$
-        double quantidadeLitrosCombustivel = distanciaPercorrida/consumoTransporte;
-        double custoTotal = quantidadeLitrosCombustivel*precoCombustivel;
-            System.out.println("O Custo Total da Viagem Foi");
-            System.out.print("R$"+CustoTotal);}      
+        double quatidadeLitrosCombustivel = distanciaPercorrida/consumoTransporte;
+        double custoTotal = quatidadeLitrosCombustivel*precoCombustivel;
+        System.out.println("o Custo total da Viagem foi de:");
+        System.out.println("R$"+custoTotal);
+
+
     }
 }
- * custoviagem
- */
