@@ -67,7 +67,256 @@ public class Vetores {
                 System.out.println("4º Posição- Indice[3]:" +notas[3]);
                double media = (notas[0] + notas[1]+notas[2] + notas[3])/4;
                System.out.println("A media é " +media);}
+               public void exemplo5() {
+                double vetoresA[] =new double[5];
+                double vetoresB[] =new double[5];
+            System.out.println("Digite nº5");
+            vetoresA[0]=sc.nextDouble();
+            vetoresA[1]=sc.nextDouble();
+            vetoresA[2]=sc.nextDouble();
+            vetoresA[3]=sc.nextDouble();
+            vetoresA[4]=sc.nextDouble();
+            vetoresB[0]=vetoresA[0];
+            vetoresB[1]=vetoresA[1];
+            vetoresB[2]=vetoresA[2];
+            vetoresB[3]=vetoresA[3];
+            vetoresB[4]=vetoresA[4];
+            System.out.println("1º Posição- Indice[0]:" + vetoresB[0]);
+            System.out.println("2º Posição- Indice[1]:" + vetoresB[1]);
+            System.out.println("3º Posição- Indice[2]:" +vetoresB[2]);
+            System.out.println("4º Posição- Indice[3]:" +vetoresB[3]);
+            System.out.println("5º Posição- Indice[4]:" +vetoresB[4]);}
+            public void exemplo6() {
+                double vetoresA[] =new double[8];
+                double vetoresB[] =new double[8];
+            System.out.println("Digite nº8 ");
+            vetoresA[0]=sc.nextDouble();
+            vetoresA[1]=sc.nextDouble();
+            vetoresA[2]=sc.nextDouble();
+            vetoresA[3]=sc.nextDouble();
+            vetoresA[4]=sc.nextDouble();
+            vetoresA[5]=sc.nextDouble();
+            vetoresA[6]=sc.nextDouble();
+            vetoresA[7]=sc.nextDouble();
+            vetoresB[0]=vetoresA[0]*2;
+            vetoresB[1]=vetoresA[1]*2;
+            vetoresB[2]=vetoresA[2]*2;
+            vetoresB[3]=vetoresA[3]*2;
+            vetoresB[4]=vetoresA[4]*2;
+            vetoresB[5]=vetoresA[5]*2;
+            vetoresB[6]=vetoresA[6]*2;
+            vetoresB[7]=vetoresA[7]*2;
 
+
+            System.out.println("1º Posição- Indice[0]:" + vetoresB[0]);
+            System.out.println("2º Posição- Indice[1]:" + vetoresB[1]);
+            System.out.println("3º Posição- Indice[2]:" +vetoresB[2]);
+            System.out.println("4º Posição- Indice[3]:" +vetoresB[3]);
+            System.out.println("5º Posição- Indice[4]:" +vetoresB[4]);
+            System.out.println("6º Posição- Indice[5]:" +vetoresB[5]);
+            System.out.println("7º Posição- Indice[6]:" +vetoresB[6]);
+            System.out.println("8º Posição- Indice[7]:" +vetoresB[7]);}
+
+            public void exemplo7() {
+                double vetoresA[] =new double[15];
+                double vetoresB[] =new double[15];
+            System.out.println("Digite nº15");
+            vetoresA[0]=sc.nextDouble();
+            vetoresA[1]=sc.nextDouble();
+            vetoresA[2]=sc.nextDouble();
+            vetoresA[3]=sc.nextDouble();
+            vetoresA[4]=sc.nextDouble();
+            vetoresA[5]=sc.nextDouble();
+            vetoresA[6]=sc.nextDouble();
+            vetoresA[7]=sc.nextDouble();
+            vetoresA[8]=sc.nextDouble();
+            vetoresA[9]=sc.nextDouble();
+            vetoresA[10]=sc.nextDouble();
+            vetoresA[11]=sc.nextDouble();
+            vetoresA[12]=sc.nextDouble();
+            vetoresA[13]=sc.nextDouble();
+            vetoresA[14]=sc.nextDouble();
+
+
+            vetoresB[0]=vetoresA[0]*vetoresA[0];
+            vetoresB[1]=vetoresA[1]*vetoresA[1];
+            vetoresB[2]=vetoresA[2]*vetoresA[2];
+            vetoresB[3]=vetoresA[3]*vetoresA[3];
+            vetoresB[4]=vetoresA[4]*vetoresA[4];
+            vetoresB[5]=vetoresA[5]*vetoresA[5];
+            vetoresB[6]=vetoresA[6]*vetoresA[6];
+            vetoresB[7]=vetoresA[7]*vetoresA[7];
+            vetoresB[8]=vetoresA[8]*vetoresA[8];
+            vetoresB[9]=vetoresA[9]*vetoresA[9];
+            vetoresB[10]=vetoresA[10]*vetoresA[10];
+            vetoresB[11]=vetoresA[11]*vetoresA[12];
+            vetoresB[12]=vetoresA[12]*vetoresA[13];
+            vetoresB[13]=vetoresA[13]*vetoresA[13];
+            vetoresB[14]=vetoresA[14]*vetoresA[14];
+
+
+            System.out.println("1º Posição- Indice[0]:" + vetoresB[0]);
+            System.out.println("2º Posição- Indice[1]:" + vetoresB[1]);
+            System.out.println("3º Posição- Indice[2]:" +vetoresB[2]);
+            System.out.println("4º Posição- Indice[3]:" +vetoresB[3]);
+            System.out.println("5º Posição- Indice[4]:" +vetoresB[4]);
+            System.out.println("6º Posição- Indice[5]:" +vetoresB[5]);
+            System.out.println("7º Posição- Indice[6]:" +vetoresB[6]);
+            System.out.println("8º Posição- Indice[7]:" +vetoresB[7]);
+            System.out.println("9º Posição- Indice[0]:" + vetoresB[8]);
+            System.out.println("10º Posição- Indice[1]:" + vetoresB[9]);
+            System.out.println("11º Posição- Indice[2]:" +vetoresB[10]);
+            System.out.println("12º Posição- Indice[3]:" +vetoresB[11]);
+            System.out.println("13º Posição- Indice[4]:" +vetoresB[12]);
+            System.out.println("14º Posição- Indice[5]:" +vetoresB[13]);
+            System.out.println("15º Posição- Indice[6]:" +vetoresB[14]);}
+            public void exemplo8() {
+                double vetoresA[] =new double[15];
+                double vetoresB[] =new double[15];
+            System.out.println("Digite nº15 para ter raiz");
+            vetoresA[0]=sc.nextDouble();
+            vetoresA[1]=sc.nextDouble();
+            vetoresA[2]=sc.nextDouble();
+            vetoresA[3]=sc.nextDouble();
+            vetoresA[4]=sc.nextDouble();
+            vetoresA[5]=sc.nextDouble();
+            vetoresA[6]=sc.nextDouble();
+            vetoresA[7]=sc.nextDouble();
+            vetoresA[8]=sc.nextDouble();
+            vetoresA[9]=sc.nextDouble();
+            vetoresA[10]=sc.nextDouble();
+            vetoresA[11]=sc.nextDouble();
+            vetoresA[12]=sc.nextDouble();
+            vetoresA[13]=sc.nextDouble();
+            vetoresA[14]=sc.nextDouble();
+
+
+            vetoresB[0]=Math.sqrt( vetoresA[0]);
+            vetoresB[1]=Math.sqrt( vetoresA[1]);
+            vetoresB[2]=Math.sqrt( vetoresA[2]);
+            vetoresB[3]=Math.sqrt( vetoresA[3]);
+            vetoresB[4]=Math.sqrt( vetoresA[4]);
+            vetoresB[5]=Math.sqrt( vetoresA[5]);
+            vetoresB[6]=Math.sqrt( vetoresA[6]);
+            vetoresB[7]=Math.sqrt( vetoresA[7]);
+            vetoresB[8]=Math.sqrt( vetoresA[8]);
+            vetoresB[9]=Math.sqrt( vetoresA[9]);
+            vetoresB[10]=Math.sqrt( vetoresA[10]);
+            vetoresB[11]=Math.sqrt( vetoresA[11]);
+            vetoresB[12]=Math.sqrt( vetoresA[12]);
+            vetoresB[13]=Math.sqrt( vetoresA[13]);
+            vetoresB[14]=Math.sqrt( vetoresA[14]);
+
+
+            System.out.println("1º Posição- Indice[0]:" + vetoresB[0]);
+            System.out.println("2º Posição- Indice[1]:" + vetoresB[1]);
+            System.out.println("3º Posição- Indice[2]:" +vetoresB[2]);
+            System.out.println("4º Posição- Indice[3]:" +vetoresB[3]);
+            System.out.println("5º Posição- Indice[4]:" +vetoresB[4]);
+            System.out.println("6º Posição- Indice[5]:" +vetoresB[5]);
+            System.out.println("7º Posição- Indice[6]:" +vetoresB[6]);
+            System.out.println("8º Posição- Indice[7]:" +vetoresB[7]);
+            System.out.println("9º Posição- Indice[0]:" + vetoresB[8]);
+            System.out.println("10º Posição- Indice[1]:" + vetoresB[9]);
+            System.out.println("11º Posição- Indice[2]:" +vetoresB[10]);
+            System.out.println("12º Posição- Indice[3]:" +vetoresB[11]);
+            System.out.println("13º Posição- Indice[4]:" +vetoresB[12]);
+            System.out.println("14º Posição- Indice[5]:" +vetoresB[13]);
+            System.out.println("15º Posição- Indice[6]:" +vetoresB[14]);}
+
+            public void exemplo9() {
+                double vetoresA[] =new double[10];
+                double vetoresB[] =new double[10];
+            System.out.println("Digite nº10");
+            vetoresA[0]=sc.nextDouble();
+            vetoresA[1]=sc.nextDouble();
+            vetoresA[2]=sc.nextDouble();
+            vetoresA[3]=sc.nextDouble();
+            vetoresA[4]=sc.nextDouble();
+            vetoresA[5]=sc.nextDouble();
+            vetoresA[6]=sc.nextDouble();
+            vetoresA[7]=sc.nextDouble();
+            vetoresA[8]=sc.nextDouble();
+            vetoresA[9]=sc.nextDouble();
+
+
+            vetoresB[0]=vetoresA[0]*0;
+            vetoresB[1]=vetoresA[1]*1;
+            vetoresB[2]=vetoresA[2]*2;
+            vetoresB[3]=vetoresA[3]*3;
+            vetoresB[4]=vetoresA[4]*4;
+            vetoresB[5]=vetoresA[5]*5;
+            vetoresB[6]=vetoresA[6]*6;
+            vetoresB[7]=vetoresA[7]*7;
+            vetoresB[8]=vetoresA[8]*8;
+            vetoresB[9]=vetoresA[9]*9;
+
+            System.out.println("1º Posição- Indice[0]:" + vetoresB[0]);
+            System.out.println("2º Posição- Indice[1]:" + vetoresB[1]);
+            System.out.println("3º Posição- Indice[2]:" +vetoresB[2]);
+            System.out.println("4º Posição- Indice[3]:" +vetoresB[3]);
+            System.out.println("5º Posição- Indice[4]:" +vetoresB[4]);
+            System.out.println("6º Posição- Indice[5]:" +vetoresB[5]);
+            System.out.println("7º Posição- Indice[6]:" +vetoresB[6]);
+            System.out.println("8º Posição- Indice[7]:" +vetoresB[7]);
+            System.out.println("9º Posição- Indice[0]:" + vetoresB[8]);
+            System.out.println("10º Posição- Indice[1]:" + vetoresB[9]);}
+
+
+            public void exemplo10() {
+                double vetoresA[] =new double[10];
+                double vetoresB[] =new double[10];
+                double vetoresC[] =new double[10];
+                
+
+            System.out.println("Digite nº10 para Vetores A");
+            vetoresA[0]=sc.nextDouble();
+            vetoresA[1]=sc.nextDouble();
+            vetoresA[2]=sc.nextDouble();
+            vetoresA[3]=sc.nextDouble();
+            vetoresA[4]=sc.nextDouble();
+            vetoresA[5]=sc.nextDouble();
+            vetoresA[6]=sc.nextDouble();
+            vetoresA[7]=sc.nextDouble();
+            vetoresA[8]=sc.nextDouble();
+            vetoresA[9]=sc.nextDouble();
+
+            System.out.println("Digite nº10 para Vetores B");
+            vetoresB[0]=sc.nextDouble();
+            vetoresB[1]=sc.nextDouble();
+            vetoresB[2]=sc.nextDouble();
+            vetoresB[3]=sc.nextDouble();
+            vetoresB[4]=sc.nextDouble();
+            vetoresB[5]=sc.nextDouble();
+            vetoresB[6]=sc.nextDouble();
+            vetoresB[7]=sc.nextDouble();
+            vetoresB[8]=sc.nextDouble();
+            vetoresB[9]=sc.nextDouble();
+
+            vetoresC[0]=vetoresA[0]+vetoresB[0];
+            vetoresC[1]=vetoresA[1]+vetoresB[1];
+            vetoresC[2]=vetoresA[2]+vetoresB[2];
+            vetoresC[3]=vetoresA[3]+vetoresB[3];
+            vetoresC[4]=vetoresA[4]+vetoresB[4];
+            vetoresC[5]=vetoresA[5]+vetoresB[5];
+            vetoresC[6]=vetoresA[6]+vetoresB[6];
+            vetoresC[7]=vetoresA[7]+vetoresB[7];
+            vetoresC[8]=vetoresA[8]+vetoresB[8];
+            vetoresC[9]=vetoresA[9]+vetoresB[9];
+         
+            System.out.println("1º Posição- Indice[0]:" + vetoresC[0]);
+            System.out.println("2º Posição- Indice[1]:" + vetoresC[1]);
+            System.out.println("3º Posição- Indice[2]:" +vetoresC[2]);
+            System.out.println("4º Posição- Indice[3]:" +vetoresC[3]);
+            System.out.println("5º Posição- Indice[4]:" +vetoresC[4]);
+            System.out.println("6º Posição- Indice[5]:" +vetoresC[5]);
+            System.out.println("7º Posição- Indice[6]:" +vetoresC[6]);
+            System.out.println("8º Posição- Indice[7]:" +vetoresC[7]);
+            System.out.println("9º Posição- Indice[0]:" + vetoresC[8]);
+            System.out.println("10º Posição- Indice[1]:" + vetoresC[9]);}
+
+
+        
 
 
 
@@ -77,5 +326,4 @@ public class Vetores {
     
 
 
-
-}
+               }
