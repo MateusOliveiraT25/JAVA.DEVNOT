@@ -10,9 +10,10 @@ public class ExemploWhile {
         while (iteracao<10) {
             System.out.println("O numero da iteracao é " + iteracao);
             iteracao += 1;}}
+
             public void exemplo2() {
                 Random rd = new  Random();
-            int numeroAleatorio = rd.nextInt(10);
+            int numeroAleatorio = rd.nextInt(100);
             boolean tenteNovamente= true;
             while (tenteNovamente) {
                 System.out.println("Tente Adivinhar o numero");
@@ -23,6 +24,7 @@ public class ExemploWhile {
                     else{
                         System.out.println("Errou !! Tente novamente");
                     }
+
                 }} public void exemplo3() {
                int vetor[] = new int[5];
                int i = 0;
